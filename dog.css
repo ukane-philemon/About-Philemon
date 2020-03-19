@@ -1,0 +1,173 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #FFF;
+    text-align: left;
+   
+}
+.col-sm {
+    padding: 0 15px;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+    color: #fff;
+   }
+
+a.nav-item.nav-link {
+    color: #FFF;
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+   margin: 0 18px;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+    
+}
+.navbar-toggler {
+    color: #FFF;
+}
+
+h1, .lc-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.7rem;
+    line-height: 5rem;
+}
+
+h3 {
+    font-family: "Montserrat-bold";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h2 {
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    line-height: 3rem;
+    margin: 20px;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    color: #fff;
+
+}
+
+.dog-img {
+    width: 110%;
+   transform: rotate(25deg);
+   position: absolute;
+   left: 10%;
+  
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #FFF;
+    position: relative;
+   
+}
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+
+}
+ .icon {
+     color: #ef8167;
+     margin-bottom: 1rem;
+  
+    }
+    .btn-i {
+        margin: 0 0.3rem 0 0;
+    }
+ 
+ .icon:hover {
+     color: #e01130;
+ }
+
+ .last-icon {
+     color: #e01130;
+ }
+
+ #testimonials {
+     text-align: center;
+     background-color: #ef8167;
+     color: #fff;
+ } 
+
+ .testimonial-img {
+     width: 10%;
+     border-radius: 100%;
+ }
+
+ .carousel-item {
+     padding: 7% 15%;
+ }
+
+ #press {
+     background-color: #ef8167;
+     text-align: center;
+ }
+
+ .press-logo {
+     width: 15%;
+     margin: 20px 20px 50px;
+ }
+ #pricing {
+     padding: 100px;
+     text-align: center;
+ }
+
+ .prices {
+    
+     margin: 0;
+ }
+
+.pricing-colume {
+    padding: 3% 2%;
+}
+.btn {
+        margin: 5% 3% 5% 0;
+
+    }
+
+@media screen and (max-width: 1028px) {
+    #title {
+        text-align: center;
+        line-height: 1rem;
+    }
+
+    
+.dog-img {
+    position: static;
+    transform: rotate(0);
+} 
+
+}
+
+#last-container {
+    background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}

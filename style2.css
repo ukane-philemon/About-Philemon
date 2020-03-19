@@ -69,7 +69,7 @@ h1 {
     }
 
 .mountain {
-  width: auto;
+  width: 70%;
 }
 .cloud-bottom {
     position: absolute;
@@ -159,4 +159,18 @@ h1 {
     color: #EAF6F6;
     margin-top: 2rem ;
     margin-bottom: 0em;
+}
+
+@media screen and (max-width: 1028px) {
+    body {
+        text-align: center;
+    }
+    .cloud-top {
+        position: static;
+       
+    }
+    .mountain {
+        width: 100%;
+      
+      }
 }
