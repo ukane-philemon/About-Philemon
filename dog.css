@@ -170,4 +170,12 @@ p {
 
 .social-icon {
     margin: 20px 10px;
+    color: #ff4c68;
+}
+
+
+
+.social-icon:hover {
+    color: #eb8191;
+    text-decoration: none;
 }
