@@ -12,11 +12,11 @@ app.get("/", function(req, res) {
 });
 
 app.get("/Dog", function(req, res) {
-   res.sendFile(__dirname + "/dog.html");
+   res.sendFile(__dirname + "/Dog.html");
 });
 
 app.get("/Dice", function(req, res) {
-   res.sendFile(__dirname + "/dice.html");
+   res.sendFile(__dirname + "/Dice.html");
 });
 
 app.listen(process.env.PORT || port, function(){
