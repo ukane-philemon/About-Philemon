@@ -1,0 +1,19 @@
+{
+  "name": "philemoncv",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukane-philemon/philemoncv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ukane-philemon/philemoncv/issues"
+  },
+  "homepage": "https://github.com/ukane-philemon/philemoncv#readme"
+}
